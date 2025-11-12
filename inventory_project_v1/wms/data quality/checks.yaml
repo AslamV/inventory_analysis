@@ -1,0 +1,4 @@
+checks for inventory_project.silver.wms_putaway_movement:
+  - invalid_count(quantity) = 0:
+      valid min: 1
+      valid max: 999
